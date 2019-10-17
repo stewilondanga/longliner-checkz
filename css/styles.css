@@ -85,12 +85,12 @@ input[type="checkbox"]+label:after {
   border-left: 0;
 }
 
-/*input[type="checkbox"]:checked + label:before {
+input[type="checkbox"]:checked+label:before {
   border: #0074d9;
   background: #0074d9;
 }
 
-input[type="checkbox"]:checked + label:after {
+/*input[type="checkbox"]:checked + label:after {
   transform: scale(1) rotate(45deg);
 }
 
