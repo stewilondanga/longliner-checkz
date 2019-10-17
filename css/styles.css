@@ -31,13 +31,13 @@ body {
   height: 1.5em;
 }
 
-/*input[type="checkbox"] {
+input[type="checkbox"] {
   box-sizing: border-box;
   position: absolute;
   display: none;
 }
 
-input[type="checkbox"] + label {
+/*input[type="checkbox"] + label {
   box-sizing: border-box;
   position: relative;
   display: block;
