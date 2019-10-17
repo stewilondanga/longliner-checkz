@@ -49,11 +49,11 @@ input[type="checkbox"]+label {
   margin-bottom: 8px;
 }
 
-/*input[type="checkbox"] + label:hover:before {
+input[type="checkbox"]+label:hover:before {
   border: 1px solid #0074d9;
 }
 
-input[type="checkbox"] + label:before {
+/*input[type="checkbox"] + label:before {
   border-radius: 2px;
   box-sizing: border-box;
   position: absolute;
