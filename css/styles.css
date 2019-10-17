@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,117 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+input[type="checkbox"] {
+  box-sizing: border-box;
+  position: absolute;
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  cursor: pointer;
+  vertical-align: middle;
+  font-size: 16px;
+  line-height: 1.3em;
+  margin-bottom: 8px;
+}
+
+input[type="checkbox"] + label:hover:before {
+  border: 1px solid #0074d9;
+}
+
+input[type="checkbox"] + label:before {
+  border-radius: 2px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  transition: border 0.2s ease;
+  border: 1px solid rgb(214, 216, 218);
+  background: transparent;
+}
+
+input[type="checkbox"] + label:after {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  transition: all 0.2s ease;
+  top: 2px;
+  left: 7px;
+  width: 6px;
+  height: 12px;
+  transform: scale(0) rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  border-top: 0;
+  border-left: 0;
+}
+
+input[type="checkbox"]:checked + label:before {
+  border: #0074d9;
+  background: #0074d9;
+}
+
+input[type="checkbox"]:checked + label:after {
+  transform: scale(1) rotate(45deg);
+}
+
+input[type="checkbox"][disabled],
+input[type="checkbox"][disabled] + label {
+  cursor: not-allowed;
+}
+
+input[type="checkbox"][disabled]:hover,
+input[type="checkbox"][disabled]:before,
+input[type="checkbox"][disabled]:after,
+input[type="checkbox"][disabled] + label:hover,
+input[type="checkbox"][disabled] + label:before,
+input[type="checkbox"][disabled] + label:after {
+  cursor: not-allowed;
+}
+
+input[type="checkbox"][disabled] + label {
+  color: rgb(214, 216, 218);
+}
+
+input[type="checkbox"][disabled] + label:before {
+  border-color: rgb(214, 216, 218);
+}
+
+input[type="checkbox"]:checked[disabled] + label:before {
+  border: rgb(102, 172, 232);
+  background: rgb(102, 172, 232);
+}
+
+
+
+/* ignore */
+/*section {
+  max-width: 600px;
+/*   border: 1px solid rgba(0,0,0,.1); */
+  /*padding: 5%;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px 0 rgba(0,0,0,.1);
+  background: #fff;
+}
+
+body {
+  display: flex;
+  background: #eee;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  font-family: system-ui;
 }
 
 .containers {
