@@ -99,8 +99,8 @@ input[type="checkbox"][disabled]+label {
   cursor: not-allowed;
 }
 
-/*input[type="checkbox"][disabled]:hover,
-input[type="checkbox"][disabled]:before,
+input[type="checkbox"][disabled]:hover,
+/*input[type="checkbox"][disabled]:before,
 input[type="checkbox"][disabled]:after,
 input[type="checkbox"][disabled] + label:hover,
 input[type="checkbox"][disabled] + label:before,
