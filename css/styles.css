@@ -116,12 +116,12 @@ input[type="checkbox"][disabled]+label:before {
   border-color: rgb(214, 216, 218);
 }
 
-/*input[type="checkbox"]:checked[disabled] + label:before {
+input[type="checkbox"]:checked[disabled]+label:before {
   border: rgb(102, 172, 232);
   background: rgb(102, 172, 232);
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
