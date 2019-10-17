@@ -53,7 +53,7 @@ input[type="checkbox"]+label:hover:before {
   border: 1px solid #0074d9;
 }
 
-/*input[type="checkbox"] + label:before {
+input[type="checkbox"]+label:before {
   border-radius: 2px;
   box-sizing: border-box;
   position: absolute;
@@ -68,7 +68,7 @@ input[type="checkbox"]+label:hover:before {
   background: transparent;
 }
 
-input[type="checkbox"] + label:after {
+/*input[type="checkbox"] + label:after {
   box-sizing: border-box;
   position: absolute;
   content: "";
